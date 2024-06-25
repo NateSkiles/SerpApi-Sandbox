@@ -35,4 +35,8 @@ Make a script to fetch the list of subsidiaries (carousel view like "apple subsi
 
 ## Exercise 3
 
-Make a script to get the open hours, rating, and number of reviews of a local business using our Google Maps API
+Make a script to get the open hours, rating, and number of reviews of a local business using our Google Maps API.
+
+### Solution ([Src](./src/exercise3/index.js))
+
+`npm run exercise2`

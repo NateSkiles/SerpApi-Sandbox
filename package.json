@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "exercise1": "node ./src/exercise1",
     "exercise2": "node ./src/exercise2",
-    "exercise3": "node ./src/exercise3"
+    "exercise3": "node ./src/exercise3",
+    "exercise4": "node ./src/exercise4"
   },
   "author": "",
   "type": "module",

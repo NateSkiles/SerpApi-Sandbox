@@ -13,7 +13,7 @@ const rl = readline.createInterface({
 
 const fetchSubsidiaries = async (name) => {
   try {
-    const apiKey = process.env.SERP_API_KEY; // Access API key from environment variables
+    const apiKey = process.env.SERP_API_KEY
     const data = await getJson({
       api_key: apiKey,
       q: `${encodeURIComponent(name)} subsidiaries`,

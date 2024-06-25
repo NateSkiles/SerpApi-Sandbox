@@ -5,7 +5,7 @@ dotenv.config();
 
 const version1 = async (name) => {
   try {
-    const apiKey = process.env.SERP_API_KEY; // Access API key from environment variables
+    const apiKey = process.env.SERP_API_KEY;
     const response = await fetch(
       `https://serpapi.com/search.json?api_key=${apiKey}&q=${encodeURIComponent(name)}+date+of+birth&hl=en`
     );
@@ -18,7 +18,7 @@ const version1 = async (name) => {
     if (!dateOfBirth) {
       return console.log(`Date of birth not found for ${name}`);
     }
-    console.log(`${name} was born on ${dateOfBirth}`); // Adjust this to log specific data you're interested in
+    console.log(`${name} was born on ${dateOfBirth}`);
   } catch (error) {
     console.error("Error fetching date of birth:", error.message);
   }
