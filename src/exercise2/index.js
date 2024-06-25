@@ -2,18 +2,13 @@
  * Make a script to fetch the list of subsidiaries (carousel view like "apple subsidiaries") of any company in the world using our API
  */
 import dotenv from "dotenv";
-import readline from "readline";
 import { getJson } from "serpapi";
+import { getInput } from "../utils/index.js";
 dotenv.config();
-
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
 
 const fetchSubsidiaries = async (name) => {
   try {
-    const apiKey = process.env.SERP_API_KEY
+    const apiKey = process.env.SERP_API_KEY;
     const data = await getJson({
       api_key: apiKey,
       q: `${encodeURIComponent(name)} subsidiaries`,
@@ -38,9 +33,7 @@ const fetchSubsidiaries = async (name) => {
   }
 };
 
-rl.question(
+getInput(
   "Enter the name of company to view their subsidiaries: ",
-  (name) => {
-    fetchSubsidiaries(name).then(() => rl.close());
-  }
+  fetchSubsidiaries
 );

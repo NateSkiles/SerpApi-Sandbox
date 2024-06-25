@@ -8,7 +8,9 @@
     "exercise1": "node ./src/exercise1",
     "exercise2": "node ./src/exercise2",
     "exercise3": "node ./src/exercise3",
-    "exercise4": "node ./src/exercise4"
+    "exercise4": "node ./src/exercise4",
+    "exercise5": "node ./src/exercise5",
+    "exercise6": "node ./src/exercise6"
   },
   "author": "",
   "type": "module",

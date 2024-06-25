@@ -39,4 +39,28 @@ Make a script to get the open hours, rating, and number of reviews of a local bu
 
 ### Solution ([Src](./src/exercise3/index.js))
 
-`npm run exercise2`
+`npm run exercise3`
+
+## Exercise 4
+
+Make a script that suggests a spelling fix to any word misspelled using Google "did you mean?" results through our API
+
+### Solution ([Src](./src/exercise4/index.js))
+
+`npm run exercise4`
+
+## Exercise 5
+
+Make a script that get "serpapi" result urls for 10 locations on our Google Organic Search API
+
+### Solution ([Src](./src/exercise5/index.js))
+
+`npm run exercise5`
+
+## Exercise 6
+
+Make a script that get "serpapi" result urls with our Google Organic Search API, Yahoo API, Baidu API, and Bing API
+
+### Solution ([Src](./src/exercise6/index.js))
+
+`npm run exercise6`
