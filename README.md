@@ -19,3 +19,20 @@ Using direct GET requests and parsing the JSON
 Using one of SerpApi JavaScript official library.
 
 `npm run exercise1 -- -v2`
+
+Version 3
+From scratch without using SerpApi at all: scraping Google directly.
+
+- TODO
+
+## Exercise 2
+
+Make a script to fetch the list of subsidiaries (carousel view like "apple subsidiaries") of any company in the world using our API
+
+### Solution ([Src](./src/exercise2/index.js))
+
+`npm run exercise2`
+
+## Exercise 3
+
+Make a script to get the open hours, rating, and number of reviews of a local business using our Google Maps API
