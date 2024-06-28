@@ -10,9 +10,16 @@
     "exercise3": "node ./src/exercise3",
     "exercise4": "node ./src/exercise4",
     "exercise5": "node ./src/exercise5",
-    "exercise6": "node ./src/exercise6"
+    "exercise6": "node ./src/exercise6",
+    "exercise7": "node ./src/exercise7",
+    "exercise8": "node ./src/exercise8"
   },
   "author": "",
   "type": "module",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "papaparse": "^5.4.1",
+    "serpapi": "^2.1.0"
+  }
 }

@@ -64,3 +64,11 @@ Make a script that get "serpapi" result urls with our Google Organic Search API,
 ### Solution ([Src](./src/exercise6/index.js))
 
 `npm run exercise6`
+
+## Exercise 7
+
+Recreate the script to fetch serpapi.com ranks of the list of keywords we are tracking. (ref: https://docs.google.com/spreadsheets/d/1MokIvv_CCeTdC4GjscuK2-agbAQEwJkMXhz7GmkqRJU) (No need to export it to Google sheet. Just display the results in the terminal.)
+
+### Solution ([Src](./src/exercise7/index.js))
+
+`npm run exercise7`
